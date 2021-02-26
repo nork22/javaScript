@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Tutorial de Alert em JavaScript - exercicio 8</title>
+    </head>
+    <body>
+    
+    <p>Clique para exibir.</p>
+    
+    <button onclick="myFunction()">Clique aqui</button>
+    
+    <p id="demo"></p>
+    
+    <script>
+    function myFunction()
+    {
+    var x;
+    
+    var animal=prompt("Digite seu animal  primeiro:");
+    var animal= prompt("Digite seu animal segundo:");
+    alert("Voce tem " + animal + " nome");
+
+    if (animal!=null)
+      {
+      x="animal: " + animal + "nome.";
+      
+      document.getElementById("demo").innerHTML=x;
+      }
+    }
+    </script>
+    
+    </body>
+    </html>
+
+
+  
