@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> validação de formulário em JS</title>
+     
+    <link rel="stylesheet" href="style.css"  />
+</head>
+<body>
+    <div class="screen">
+
+        <div class="lefside">
+        <img src="https://www.mxm.com.br/wp-content/uploads/2020/07/IMG_7493-1024x683.jpg"  alt=""  />    
+      
+       </div>
+       <div class="rightside">
+
+        <h1>crie uma conta </h1>
+        <form name="FORMCADASTRO" action="exemplo.php" method="post" onsubmit="return validacao()">
+        
+        
+        <input  type="text" name="name" id="name" required>
+        <label>Nome</label>
+        <input  type="text" name="e-mail" id= "e-mail" required>
+        <label>e-mail</label>        
+        <input type= "texto" name="password" id="password" required>
+        <label>password </label>
+        <label>
+            sexo
+        <input type="radio" name="sexo" value="M" checked="checked" /> Masculino <br />
+        <input type="radio" name="sexo" value="F" /> Femenino <br />
+        </label> 
+        <input  type="text" name="perfil" id="perfil" required>
+        <label>perfil</label><br />
+        <textarea name="Perfil" rows="10" cols="50"></textarea> <br />
+        <input type="submit" name="enviar" value="cadastar"  /> 
+        
+    </form>
+    <div>
+        ja tem uma conta? <a href="">faça login</a>
+    </div>
+
+    </div>
+
+   </div>
+ <script src="script.js"></script>
+</body>
+
+
+</html>
